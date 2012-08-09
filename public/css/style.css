@@ -1,5 +1,119 @@
-body { font-family: 'Pontano Sans', serif; background-color: #252525; color: #ffffff; }
+/* base styles */
+body { font-family: 'Pontano Sans', serif; background-color: #e5e5e5; color: #252525; overflow: hidden}
+a, a:active, a:hover, a:visited { color: #252525; text-decoration: underline; }
 
-h3 { color: #ffffff; }
+#hello {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  text-align: center;
+  border-bottom: 1px solid #252525;
+  background: #ededed;
+}
+#hello h1 {
+  font-size: 24px;
+  font-weight: normal;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+h1 .name {
+  font-weight: bold;
+}
 
-.corner-box { margin: 20px }
+/* .box style */
+.box {
+  -webkit-animation: box-slide 0.8s;
+     -moz-animation: box-slide 0.8s;
+       -o-animation: box-slide 0.8s;
+          animation: box-slide 0.8s;
+    
+  -webkit-animation-timing-function: ease-in;
+     -moz-animation-timing-function: ease-in;
+       -o-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+
+  display: block;
+  width: 250px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -125px;
+  border-bottom: 1px solid #252525;
+  border-right: 1px solid #252525;
+  border-left: 1px solid #252525;
+  z-index: -1;
+  background: #ededed;
+}
+.box ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+.box ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.box ul li:last-of-type {
+  margin-right: 0;
+}
+.box ul li a {
+  text-indent: -12000px;
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+.box ul li a:hover {
+  background-color: #C9EAFF;
+}
+.box ul li a.tumblr {
+  background-image: url(/img/tumblr.png);
+}
+.box ul li a.twitter {
+  background-image: url(/img/twitter_1.png);
+}
+.box ul li a.linkedin {
+  background-image: url(/img/linkedin.png);
+}
+.box ul li a.email {
+  background-image: url(/img/email.png);
+}
+
+/* Animations */
+@-webkit-keyframes box-slide
+{
+  from {
+    top: 40%;
+  }
+  to {
+    top: 50%;
+  }
+}
+@-moz-keyframes box-slide
+{
+  from {
+    top: 40%;
+  }
+  to {
+    top: 50%;
+  }
+}
+@-o-keyframes box-slide
+{
+  from {
+    top: 40%;
+  }
+  to {
+    top: 50%;
+  }
+}
+@keyframes box-slide
+{
+  from {
+    top: 40%;
+  }
+  to {
+    top: 50%;
+  }
+}
