@@ -1,4 +1,4 @@
-use Rack::Static, 
+use Rack::TryStatic, 
   :urls => %w(/css /js /img /blog),
   :root => "public",
   :try => ['.html', 'index.html', '/index.html']
