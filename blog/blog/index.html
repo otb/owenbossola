@@ -2,8 +2,10 @@
 layout: archive
 ---
 {% for post in site.posts limit:10 %}
-	<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
 	<div class="post">
+		<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+
+		<span class="subtitle">hi {{ post.date }}</span>
 		{{ post.content }}
 	</div>
 {% endfor %}
