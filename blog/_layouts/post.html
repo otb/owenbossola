@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
 
-{{ content }}
+<article>
+	<h2>{{ page.title }}</h2></a>
+	<time datetime="{{ page.date }}">{{ page.date | date: "%B, %d %Y" }}</time>
+	{{ content }}
+</article>

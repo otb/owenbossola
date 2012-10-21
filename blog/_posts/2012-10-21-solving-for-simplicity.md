@@ -1,7 +1,7 @@
 ---
 layout: post
 title: When in doubt, solve for simplicity
-draft: true
+draft: false
 ---
 
 Often times, when approached with problems, the natural instinct is to immediately dive in and find a solution as quickly as possible, especially when under the stress of a deadline.

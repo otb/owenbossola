@@ -4,5 +4,5 @@ server_port: 3000
 pygments: false
 lsi: false
 baseurl: /
-permalink: /blog/:year/:month/:day/:title
+permalink: /posts/:title
 destination: ../public
