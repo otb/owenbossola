@@ -1,5 +1,72 @@
+/* base styles */
+body { font-family: 'Pontano Sans', serif; background-color: #fff; color: #252525; overflow: hidden}
+a, a:active, a:hover, a:visited { color: #252525; text-decoration: underline; }
+
+header {
+  margin-top: 100px;
+  border-bottom: 1px solid #444;
+}
+header h1 {
+  font-size: 22px;
+  font-weight: normal;
+  text-align: center;
+}
+header h1 .name {
+  font-weight: bold;
+}
+
+#main {
+  width: 860px;
+  margin: auto auto;
+  position: relative;
+}
 
 
-#container {
-	margin-top: 10%;
+/* .box style */
+.box {
+  display: block;
+  width: 250px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -125px;
+  border-bottom: 1px solid #252525;
+  border-right: 1px solid #252525;
+  border-left: 1px solid #252525;
+  z-index: -1;
+  background: #fff;
+  text-align: center;
+}
+.box ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+.box ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.box ul li:last-of-type {
+  margin-right: 0;
+}
+.box ul li a {
+  text-indent: -12000px;
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+.box ul li a:hover {
+  background-color: #C9EAFF;
+}
+.box ul li a.tumblr {
+  background-image: url(/img/tumblr.png);
+}
+.box ul li a.twitter {
+  background-image: url(/img/twitter_1.png);
+}
+.box ul li a.linkedin {
+  background-image: url(/img/linkedin.png);
+}
+.box ul li a.email {
+  background-image: url(/img/email.png);
 }
