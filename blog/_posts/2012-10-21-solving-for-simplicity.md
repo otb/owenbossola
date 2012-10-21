@@ -1,6 +1,6 @@
 ---
 layout: post
-title: When in doubt, solve for simplicity
+title: Solving for simplicity
 draft: false
 ---
 
