@@ -23,6 +23,8 @@ There are endless permutations of the questions we can ask that pertain to the p
 
 > when in doubt, solve for simplicity
 
-Framing problems with a simple solution in mind frees the problem-solvers from the complexity that can arise by phrasing numerous questions together.  Simple solutions have less.  Here's how we could reframe the above questions when solving for simplicity:  Something that is small to download but is visually less can simply have a smaller footprint to compensate.  Also, a luxury good that is also affordable can have minimal packaging to lower costs, raise appeal, and focus solely on the product.
+Framing problems with a simple solution in mind frees the problem-solvers from the complexity that can arise by phrasing numerous questions together.  Simple solutions, simply, have less.  All the rest is taken away.
+
+Here's how we could reframe the above questions when solving for simplicity:  Something that is small to download but is visually less can simply have a smaller footprint to compensate.  Or, a luxury good that is also affordable can have minimal packaging to lower costs, raise appeal, and focus solely on the product.
 
 While there can still be challenges in achieving an adequate solution, this helps move beyond the initial phase of deconstructing a problem and producing solutions that achieve a common goal.
