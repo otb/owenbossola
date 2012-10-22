@@ -5,4 +5,5 @@ pygments: false
 lsi: false
 baseurl: /
 permalink: /posts/:title
-destination: ../public
+destination: _site
+exclude: Gemfile, Gemfile.lock, config.ru
