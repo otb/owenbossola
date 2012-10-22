@@ -40,3 +40,93 @@ footer {
   width: 600px;
   margin: 0 auto 30px auto;
 }
+
+/* Info Box */
+.info {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  background: #222;
+  width: 25px;
+  height: 25px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  z-index: 2;
+}
+.info:hover {
+  color: #fff;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+     -moz-box-shadow: 3px 3px 5px 6px #ccc;
+          box-shadow: 2px 2px 3px 2px #ccc;
+}
+#info {
+  position: fixed;
+  bottom: -200px;
+  right: 10px;
+  background: #ddd;
+  width: 160px;
+  height: 190px;
+  color: #252525;
+  padding: 0 10px;
+}
+
+/* Animations */
+@-webkit-keyframes slidein {
+  from { bottom: -200px; }
+  to { bottom: 0; }
+}
+
+@-moz-keyframes slidein {
+  from { bottom: -200px; }
+  to { bottom: 0; }
+}
+
+@-ms-keyframes slidein {
+  from { bottom: -200px; }
+  to { bottom: 0; }
+}
+
+@keyframes slidein {
+  from { bottom: -200px; }
+  to { bottom: 0; }
+}
+
+.slidein {
+  bottom: 0;
+
+  -webkit-animation-name: slidein; 
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes slideout {
+  from { bottom: 0px; }
+  to { bottom: -200px; }
+}
+
+@-moz-keyframes slideout {
+  from { bottom: 0px; }
+  to { bottom: -200px; }
+}
+
+@-ms-keyframes slideout {
+  from { bottom: 0px; }
+  to { bottom: -200px; }
+}
+@keyframes slideout {
+  from { bottom: 0px; }
+  to { bottom: -200px; }
+}
+
+.slideout {
+  bottom: -200px;
+
+  -webkit-animation-name: slideout; 
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+}
