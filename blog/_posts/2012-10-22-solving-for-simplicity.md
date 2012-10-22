@@ -8,18 +8,18 @@ When trying to solve a problem, the natural instinct is to immediately dive in a
 
 We should take the time to take a step back and ask ourselves:
 
-> what am I solving for?
+> what are we solving for?
 
-When we do, the answer usually varies and contributes significantly to the desirable solution.  On any number of occassions, you can be solving problems with these kinds of goals in mind:
+When we do, the answer usually varies and contributes significantly to the desirable solution.  On any number of occassions, we can be solving problems with these kinds of goals in mind:
 
 * Speed
 * Cost
 * Wow-factor
 * Efficiency
 
-Usually, however, we end up trying to solve problems while considering numerous goals.  For example: how can we make something that is both small to download and visually dense?  How can you make a product that has the allure of luxury but is also affordable?
+Usually, however, we end up trying to solve problems while considering numerous goals.  For example: how can we make something that is both small to download and visually dense?  How can we make a product that has the allure of luxury but is also affordable?
 
-There are endless permutations of the questions we can ask that pertain to the problems we're trying to solve.  This can be a roadblock that can slow the creative process of brainstorming and discussion solutions.  When I'm stuck, I follow this rule:
+There are endless permutations of the questions we can ask that pertain to the problems we're trying to solve.  This can be a roadblock that can slow the creative process of brainstorming and discussing solutions.  When I'm stuck, I follow this rule:
 
 > when in doubt, solve for simplicity
 
