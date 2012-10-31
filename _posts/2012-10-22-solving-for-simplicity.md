@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Solving for simplicity
+tags:
+  - thinking
 draft: false
 ---
 
