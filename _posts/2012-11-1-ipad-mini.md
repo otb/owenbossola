@@ -12,8 +12,8 @@ What's unclear is how the market will react to it, since the price starts at $32
 
 First, I've spent hundreds of dollars on apps that make the device immensely more valuable out of the box.  Next, it will be easy to charge since I'll be accumulating numerous lightning cables and have them placed around the house and at work.  Finally, using the device is like second nature after 5+ years of iOS.   All of these pay dividends in the user experience, which lasts the entire life of the product.
 
-Everyday consumers don't see things this way, though.  It appears like the leaders of this market set the price at $199 and since this device is (yet) to be a status symbol like it's big brother, it might not have a chance to be immensely successful. 
+Everyday consumers don't see things this way, though. The leaders of this market set the price at $199 and since this device is (yet) to be a status symbol like it's big brother, it might not have a chance to be immensely successful. 
 
-Whatever happens with the device long term, it's interesting to see Apple following into this market.  It's not clear if they're going to lead it and it may damage their reputation if they don't.  Another disturbing point is that there are now 14 (!) different configurations of iPads available.  That's not the mark of focus that Apple as an organization has done so well in during the last ten years.  This could be the start in their loss of dominance.
+Apple's success has been with focused, market-defining products, not by following others.  It's not clear how well the iPad mini will do against established competitors, but it's going to be interesting to see what happens next.  Being the leader in consumper products, Apple has plenty to lose and there is no shortage of companies ready to step up if they do.
 
 [mini]: <http://www.apple.com/ipad-mini/overview/>  "Apple's iPad Mini"
