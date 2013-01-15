@@ -1,5 +1,9 @@
 require 'rack/contrib/try_static'
 
+configure :production do
+  require 'newrelic_rpm'
+end
+
 use Rack::TryStatic, 
     :root => "_site",
     :urls => %w[/],
