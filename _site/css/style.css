@@ -190,3 +190,16 @@ footer {
     line-height: 1.5em;
   }
 }
+@media screen and (max-device-width: 1024px) {
+  body {
+    -webkit-text-size-adjust:none;
+  }
+  .info, #info {
+    display:none;
+  }
+  header,
+  footer,
+  section.posts {
+    width: 87.5%;
+  }
+}
