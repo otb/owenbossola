@@ -5,14 +5,30 @@ a, a:active, a:hover, a:visited { color: #252525; text-decoration: none; font-we
 header {
   width: 600px;
   margin: 50px auto 50px auto;
+  position: relative;
+  height: 135px;
 }
 header h1 {
   font-size: 34px;
-  margin-bottom: 0;
+  margin: 0;
 }
 header .subtitle {
   margin-top: 6px;
   color: #333;
+}
+header .about {
+  position: absolute;
+  left: 145px;
+}
+header .about p {
+  margin: 7px;
+}
+header .profile {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 125px;
+  border-radius: 3px;
 }
 section.posts {
   width: 600px;
@@ -20,7 +36,7 @@ section.posts {
   position: relative;
 }
 .posts article {
-
+  margin-bottom: 40px;
 }
 .posts article h2 {
   margin-bottom: 3px;
@@ -129,4 +145,48 @@ footer {
   -webkit-animation-duration: 0.1s;
   -webkit-animation-timing-function: ease;
   -webkit-animation-fill-mode: forwards;
+}
+
+@media screen and (max-device-width: 480px) {
+  body {
+    -webkit-text-size-adjust:none;
+  }
+  .info, #info {
+    display:none;
+  }
+  header,
+  footer,
+  section.posts {
+    width: 87.5%;
+  }
+  header {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: auto;
+  }
+  header .profile {
+    position: relative;
+    margin: auto auto;
+  }
+  header .about {
+    font-size: 1.4em;
+    position: relative;
+    margin: auto auto;
+    left:0;
+    text-align: center;
+  }
+  section.posts {
+    margin-top: 20%;
+  }
+  article {
+    line-height: 1.4em;
+  }
+  article h2 {
+    font-size: 1.6em;
+    line-height: 1.3em;
+  }
+  article p {
+    font-size: 1.3em;
+    line-height: 1.5em;
+  }
 }
