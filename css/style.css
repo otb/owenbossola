@@ -21,7 +21,8 @@ header .about {
   left: 145px;
 }
 header .about p {
-  margin: 7px;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 header .profile {
   display: block;
