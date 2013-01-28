@@ -6,4 +6,4 @@ lsi: false
 baseurl: /
 permalink: /posts/:title
 destination: _site
-exclude: Gemfile, Gemfile.lock, config.ru
+exclude: Gemfile, Gemfile.lock, config.ru, Rakefile
