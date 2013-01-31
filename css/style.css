@@ -31,7 +31,7 @@ header .profile {
   width: 125px;
   border-radius: 3px;
 }
-section.posts {
+section {
   width: 600px;
   margin: auto auto;
   position: relative;
@@ -146,6 +146,10 @@ footer {
   -webkit-animation-duration: 0.1s;
   -webkit-animation-timing-function: ease;
   -webkit-animation-fill-mode: forwards;
+}
+/* About Page */
+section.about {
+  
 }
 
 @media screen and (max-device-width: 480px) {
