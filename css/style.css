@@ -1,4 +1,7 @@
-/* base styles */
+/* 
+    Base Styles
+    Author: Owen Bossola
+*/
 body { font-family: 'Pontano Sans', serif; background-color: #fff; color: #252525; }
 a, a:active, a:hover, a:visited { color: #252525; text-decoration: none; font-weight: bold;}
 
